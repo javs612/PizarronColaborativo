@@ -1,0 +1,54 @@
+body {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+canvas {
+  position: relative;
+  margin:auto;
+}
+
+nav{
+  width: 100%;
+  min-height: 20px;
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.column {
+  flex: 25%;
+  display: inline-block;
+}
+
+.contenido{
+  width: 100%;
+}
+
+p{
+  width: 30%;
+  position: absolute;
+  font-size: 20px;
+  padding: 5px;
+  margin-top:1em;
+  text-align: center;
+}
+
+input[type="color"]{
+
+  height: 40px;
+}
+input[type="number"]{
+  width: 40%;
+  height: 40px;
+}
+button{
+  background: none;
+  border: none;
+}
